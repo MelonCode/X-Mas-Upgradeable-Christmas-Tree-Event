@@ -1,0 +1,47 @@
+#_UNUSED is a keyword to disable message.
+
+#For chat
+plugin-name: X-Mas
+
+messages:
+ plugin-enabled: 圣诞快乐！
+ timeout: 圣诞假日结束了，明年再见！
+ final-wish: 我的朋友们，新年快乐！
+
+ tree:
+  grow-lvl-ready: 哇哦! 点击鼠标右键来让树长大！
+  grow-lvl-progress: _UNUSED
+  grow-req-list-title: 需要
+  grow-not-enough-place: 没有足够的空间让树成长。
+  grow-lvl-max: 这棵树已经升级到上限了！
+  tree-limit: 嘿，别贪心! (tree-limit)
+  destroy-sapling: 奇迹不会降临，你确定吗？
+  destroy-leaves-santa: 圣诞老人看到了一切。
+  destroy-leaves-tut: 砍伐树干来摧毁这棵树。
+  destroy-warning: 你真的确定吗？一切进度将灰飞烟灭并且不会给你任何东西。
+  destroy-tut: 如果要摧毁你的树，请再次砍它。
+  destroy-fail-owner: 这不是你的树！
+  destroy-complete: 你 个 怪 物 ！
+ gift:
+  luck-message: _UNUSED
+  unluck-message: 可能圣诞老人已经把你列入黑名单。 祝下次好运！
+crystal:
+ name: 圣诞水晶
+ lore: 
+  - 汇集了圣诞能量
+  - 在云杉树苗上使用它来变成一棵魔法圣诞树
+help:
+  - '使用 /xmas 来查看插件版本和状态'
+  - '使用 /xmas give <玩家名> 来将圣诞水晶给予某人'
+  - '使用 /xmas gifts 来在每棵圣诞树下产生一些礼物！'
+  - '使用 /xmas end 来设置圣诞节已结束'
+
+command:
+ help:
+   - '&2使用 &c/xmas &2来查看插件版本和状态'
+   - '&2使用 &c/xmas give &2<Name> 来将圣诞水晶给予某人'
+   - '&2使用 &c/xmas gifts &2来在每棵圣诞树下产生一些礼物！'
+   - '&2使用 &c/xmas end &2来设置圣诞节已结束'
+ player-offline: '&c玩家不存在或离线'
+ no-player-name: '&6确山玩家名'
+ giveaway: '&c吼! &2吼! &c吼! &3是时候来看看礼物是什么了！!'
